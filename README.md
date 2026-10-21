@@ -2,7 +2,7 @@
 
 MAPS is a model-agnostic score for the predictability of a multivariable time-series forecasting task. It measures whether similar input windows have directionally coherent future targets. Scores range from `0` (low coherence) to `1` (high coherence).
 
-This repository contains only the MAPS v10 implementation used by the accompanying paper, *Model-agnostic predictability quantification of multivariable time series*.
+This repository contains only the MAPS implementation used by the accompanying paper, *Model-agnostic predictability quantification of multivariable time series*.
 
 ## Install
 

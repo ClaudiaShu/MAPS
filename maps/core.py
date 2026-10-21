@@ -1,4 +1,4 @@
-"""Core MAPS v10 implementation."""
+"""Core MAPS implementation."""
 
 from __future__ import annotations
 
@@ -121,7 +121,7 @@ def local_direction_coherence(
     pca_components: Optional[int] = 50,
     eps: float = _EPS,
 ) -> dict[str, Any]:
-    """Compute MAPS v10 directional coherence for preconstructed windows.
+    """Compute MAPS directional coherence for preconstructed windows.
 
     ``states`` and ``futures`` must have shape ``(n_windows, n_dimensions)``.
     The result contains per-window unpredictability and signed/absolute
@@ -154,7 +154,7 @@ def maps_rolling_windows(
     stride: int = 1,
     verbose: bool = False,
 ) -> dict[str, Any]:
-    """Compute the MAPS v10 score from aligned input and target time series.
+    """Compute the MAPS score from aligned input and target time series.
 
     ``X`` has shape ``(time, features)`` and ``y`` has shape ``(time,)`` or
     ``(time, targets)``. The score is the mean absolute directional coherence
