@@ -19,12 +19,6 @@ dependencies = [
   "scikit-learn>=1.2",
 ]
 
-[project.optional-dependencies]
-test = ["pytest>=7"]
-
 [tool.setuptools.packages.find]
 include = ["maps*"]
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
 

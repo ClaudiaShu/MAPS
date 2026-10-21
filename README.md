@@ -27,12 +27,6 @@ print(result["predictability"])
 
 The returned dictionary contains the overall `predictability` score, per-window `local_results`, run `metadata`, and the generated `windows`.
 
-## Test
-
-```bash
-python -m pytest
-```
-
 ## License
 
 MIT
