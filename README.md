@@ -1,6 +1,6 @@
 # MAPS
 
-This repository contains the official implementation of the method presented in our paper, *Model-agnostic Predictability Quantification of Multivariable Time Series*.
+This repository contains the official implementation of the method presented in our paper, **Model-agnostic Predictability Quantification of Multivariable Time Series**.
 
 MAPS quantifies the predictability of a multivariable time-series forecasting task without fitting or evaluating a forecasting model. It measures whether similar input windows lead to directionally coherent future targets and returns a score between `0` (low predictability) and `1` (high predictability).
 
